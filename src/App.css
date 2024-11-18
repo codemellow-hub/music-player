@@ -15,11 +15,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 }
 
 .App {
-  /* background-color: orange; */
   width: 100%;
   height: 100%;
   display: flex;
@@ -37,18 +35,14 @@ body {
 
 .music-player {
   margin-top: 3rem;
-  /* text-align: center; */
   padding: 20px;
   background-color: #c6c6c6;
   border-radius: 1rem;
   width: 33rem;
-  /* height: 13rem; */
 }
 
 .aqE {
   background-color: #5f645f;
-  /* width: 24rem; */
-  /* height: 6rem; */
 }
 
 .gyT {
@@ -58,8 +52,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #121212;
-  /* width: 24rem; */
-  /* height: 6rem; */
   border-right: 4px solid #fff;
   border-bottom: 4px solid #fff;
   border-top: 4px solid #5f645f;
@@ -76,7 +68,6 @@ body {
 
 .gyTR {
   padding: 0 1rem;
-  /* background-color: green; */
   color: palevioletred;
   font-size: 3.5rem;
   animation: spin-animation linear 10s infinite;
