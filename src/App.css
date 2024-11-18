@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Micro+5+Charted&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  /* text-align: center; */
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  /* background-color: orange; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
+.cjY {
+  font-size: 6rem;
+  font-family: "Micro 5 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.music-player {
+  margin-top: 3rem;
+  /* text-align: center; */
+  padding: 20px;
+  background-color: #c6c6c6;
+  border-radius: 1rem;
+  width: 33rem;
+  /* height: 13rem; */
+}
+
+.aqE {
+  background-color: #5f645f;
+  /* width: 24rem; */
+  /* height: 6rem; */
+}
+
+.gyT {
+  margin-bottom: 1rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  /* width: 24rem; */
+  /* height: 6rem; */
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  border-top: 4px solid #5f645f;
+  border-left: 4px solid #5f645f;
+}
+
+.gyTL {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: aquamarine;
+}
+
+.gyTR {
+  padding: 0 1rem;
+  /* background-color: green; */
+  color: palevioletred;
+  font-size: 3.5rem;
+  animation: spin-animation linear 10s infinite;
+}
+
+@keyframes spin-animation {
+  0% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: rotate(359deg);
   }
+}
+
+.hyT {
+  background-color: #5f645f;
+  padding: 2px;
+}
+
+.jyT {
+  background-color: #121212;
+  height: 40px;
+}
+
+.caS {
+  width: 100%;
+  height: 100%;
+}
+
+.gyO {
+  border-top: 8px solid #fff;
+  border-bottom: 8px solid #5f645f;
+  background-color: #c6c6c6;
+  padding: 0.25rem 1.75rem;
+  outline: 2px solid #000;
+}
+
+.gyO:hover {
+  cursor: pointer;
+  border-top: 8px solid #5f645f;
+  border-bottom: 8px solid #fff;
+}
+
+.gyOI {
+  width: 2.3rem;
+  height: 1.5rem;
+  color: black;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
 }
